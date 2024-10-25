@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="icon" href="images/Bobercraftlogo.png">
+
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/pages/shop.css">
+
+  <title>BoberCraft | Sklep</title>
+</head>
+<body>
+  <!--Navbar-->
+  <div class="navbar">
+    <div class="menu-mobile">
+        <a href="index.html">
+            <div class="logo">
+                <img src="images/Bobercraftlogo.png" alt="Server logo" class="logo-img">
+                <h3 style="color: red; margin:0px;">Bober</h3>
+                <h3 style="color: white;">Craft</h3>
+            </div>
+        </a>
+
+        <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+
+    <div class="links">
+        <a href="index.html" class="link">Home</a>
+        <a href="shop.html" class="link active">Sklep</a>
+    </div>
+</div>
+
+  <!--Header-->
+  <section id="header">
+    <div class="content">
+      <div class="info">
+        <div style="display: flex;">
+          <p class="minecraft-server-ip" style="color: red">Bober</p>
+          <p class="minecraft-server-ip" style="color: white">Craft</p>
+        </div>
+        
+        <h1 class="title">Witaj w naszym <span>sklepie</span></h1>
+      </div>
+      <p class="description">
+        Tutaj możesz kupić rangi i klucze na nasz serwer oraz także go wesprzeć. Szczegółowe opisy rang oraz innych przedmiotów znajdziesz bezpośrednio na naszym serwerze lub discordzie. 
+      </p>
+    </div>
+  </section>
+
+  <!--Rules-->
+
+  <section id="rules">
+    <!-- Shop Products -->
+     <!-- Buttons earlier had 'id="openModalBtn"' -->
+    <div class="shop-content">
+      
+      <div class="shop-product">
+        <img class="shop-product-image" src="images/shop-hardcore.png">
+        <a href="https://bobercraft.craftingstore.net/category/462203"><button class="shop-category-button" id="shop-category-hardcore-button">Przejdź do sklepu</button></a>
+        <h2 class="product-lore">HARDCORE<br><span></span></h2>
+      </div>
+      <div class="shop-product">
+        <img class="shop-product-image" src="images/shop-skyblock.png">
+        <a href="https://bobercraft.craftingstore.net/category/460883"><button class="shop-category-button" id="shop-category-hardcore-button">Przejdź do sklepu</button></a>
+        <h2 class="product-lore">SKYBLOCK<br><span></span></h2>
+      </div>
+      <div class="shop-product">
+        <img class="shop-product-image" src="images/shop-survival.png">
+        <a href="https://bobercraft.craftingstore.net/category/460826"><button class="shop-category-button" id="shop-category-hardcore-button">Przejdź do sklepu</button></a>
+        <h2 class="product-lore">SURVIVAL<br><span></span></h2>
+      </div>
+      
+  
+
+    <!-- Shop Popup Elements -->
+      <div id="modalOverlay" class="modal-overlay">
+        <div class="modal-container" id="modal-container-id">
+            <span class="close-btn">&times;</span>
+      </div>
+      
+    </div>
+  </section>
+
+  <!--Server Join-->
+  <section id="join-server">
+    <div class="content">
+      <h2 class="section-title">Jeśli masz pytania co do <span>płatności</span> napisz do nas na <span>discordzie</span></h2>
+      <div class="buttons">
+        <a href="https://discord.gg/z8mbTZXvBF" class="discord-link"><button class="join-discord">Napisz do nas na discordzie</button></a>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer id="footer">
+    <p class="copyright">&copy; 2024 <span class="server-name-footer">BoberCraft</span>. Wszystkie prawa zastrzeżone.</p>
+</footer>
+</body>
+<script src="js/script.js"></script>
+<script src="https://kit.fontawesome.com/cbf5ee59c8.js" crossorigin="anonymous"></script>
+</html>

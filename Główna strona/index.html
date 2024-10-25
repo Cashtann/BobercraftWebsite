@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" href="images/Bobercraftlogo.png">
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/pages/home.css">
+
+    <title>BoberCraft | Home</title>
+</head>
+<body>
+    <!--Navbar-->
+    <div class="navbar">
+        <div class="menu-mobile">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="images/Bobercraftlogo.png" alt="Server logo" class="logo-img">
+                    <h3 style="color: red; margin:0px;">Bober</h3>
+                    <h3 style="color: white;">Craft</h3>
+                </div>
+            </a>
+
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="links">
+            <a href="index.html" class="link active">Home</a>
+            <a href="shop.html" class="link">Sklep</a>
+        </div>
+    </div>
+
+    <!--Header-->
+    <section id="header">
+        <div class="content">
+
+            <div class="left">
+                <div class="server-name">
+                    <p>Minecraft server survivalowy</p>
+                    <div style="display: flex;">
+                        <h1 style="color: red;">Bober</h1><h1 style="color: white;">Craft</h1>
+                    </div>
+                </div>
+                <p class="server-description">
+                    Najlepsza sieć serwerów w Polsce z wieloma trybami, w tym Survival i Skyblock. Dołącz już dziś i ciesz się rozgrywką na wysokim poziomie z aktywną społecznoscią.
+                    <br><br>Dołączy i graj ze znajomymi
+                </p>
+                <div class="buttons">
+                    <button class="copy-ip" onclick="copyToClipboard()">Skopiuj adres serwera</button>
+                    <a href="#about"><button class="how-to-join">Pokaż więcej</button></a>
+                </div>
+                <p class="ip-copied">IP was successfully copied!</p>
+            </div>
+
+            <div class="right">
+                <img src="images/Bobercraftlogo.png" alt="Server logo" class="logo-img logo-img-header" style="border-radius: 15px;">
+            </div>
+        </div>
+    </section>
+
+    <!--About us-->
+    <section id="about">
+        <div class="content">
+            <div class="left">
+                <h2 class="section-title">Kim jesteśmy</h2>
+                <p class="about-us">Jesteśmy grupą pasjonatów Minecrafta, dla których tworzenie serwerów to coś więcej niż hobby – to prawdziwa pasja. Robimy to przede wszystkim dla frajdy, chcąc tworzyć miejsce, gdzie każdy gracz znajdzie coś dla siebie. Naszym celem jest zapewnienie unikalnych i dopracowanych rozgrywek, które dostarczą mnóstwo radości i niezapomnianych chwil.
+            </div>
+
+            <div class="right">
+                <img src="images/about-section-person-image.png" alt="Minecraft person">
+                <div class="img-background"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--Games-->
+    <section id="minigames">
+        <div class="content miniGames-list">
+            <div class="game">
+                <img src="images/skyblock-island-image.png" alt="Survival image">
+
+                <div class="info">
+                    <h2 class="section-title">SkyBlock</h2>
+                    <div class="game-description">
+                        <p>Tryb Skyblock na naszym serwerze oferuje unikalny system wysp, gdzie gracze mogą rozwijać swoje własne małe światy, zaczynając od zera. Dodatkowo, rozbudowana ekonomia i elementy PvP wprowadzają do rozgrywki wyzwania, pozwalając na handel oraz rywalizację między wyspami. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="game">
+                <img src="images/survival-spawn-image.png" alt="Survival image">
+
+                <div class="info">
+                    <h2 class="section-title">Survival</h2>
+                    <div class="game-description">
+                        <p>Tryb survival na naszym serwerze to miejsce, gdzie gracze mogą swobodnie eksplorować świat, budować swoje bazy, a dzięki systemowi działek chronić je przed innymi. Dodatkowo, rozbudowana ekonomia oraz włączone PvP dodają rywalizacji i pozwalają na handel oraz walki między graczami, co tworzy dynamiczną i ekscytującą rozgrywkę. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="game">
+                <img src="images/hardcore-preview.png" alt="Hardcore image">
+
+                <div class="info">
+                    <h2 class="section-title">Hardcore</h2>
+                    <div class="game-description">
+                        <p>Tryb Hardcore na naszym serwerze to prawdziwe wyzwanie dla najodważniejszych graczy. Rozgrywka toczy się na najwyższym poziomie trudności, gdzie każda śmierć niesie poważne konsekwencje. Każda decyzja może przesądzić o przetrwaniu lub chwilowej eliminacji, tworząc pełną emocji i napięcia rozgrywkę. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Discord-->
+    <section id="discord">
+        <div class="content">
+            <h2 class="section-title">Masz <span>problem</span> lub chcesz z nami pogadać? <br> Dołącz do naszego <span>Discorda!</span></h2>
+            <a href="https://discord.gg/z8mbTZXvBF" class="discord-link"><button class="join-discord">Dołącz do discorda</button></a>
+        </div>
+    </section>
+
+    <!--FAQs-->
+    <section id="faq">
+        <div class="content">
+            <div class="info">
+                <h2 class="section-title">Server <span>FAQs.</span></h2>
+                <p class="section-description">Najczęściej zadawane pytania, odpowiedź na nie znajdziesz na naszym Discordzie</p>
+            </div>
+
+            <div class="accordion faqList">
+                <div class="accordion-item">
+                    <div class="accordion-item-header">
+                        Czy na serwerze są dostępne specjalne eventy lub konkursy?
+                    </div>
+                    <div class="accordion-item-body">
+                        <div class="accordion-item-body-content">
+                            Tak, często organizujemy różnego rodzaju eventy i konkursy w których można wygrać rangi na serwerze, klucze, a nawet realne pieniądze!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-item-header">
+                        Czy mogę grać ze znajomymi na jednej wyspie w trybie Skyblock?
+                    </div>
+                    <div class="accordion-item-body">
+                        <div class="accordion-item-body-content">
+                            Tak, na jednej wyspie możesz grać nawet z 12 przyjaciółmi!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-item-header">
+                        Jak działa system ekonomii i w jaki sposób mogę zarabiać pieniądze (serwerową walutę)?
+                    </div>
+                    <div class="accordion-item-body">
+                        <div class="accordion-item-body-content">
+                            System ekonomii jest tutaj jednocześnie prosty w obsłudze i zaawansowany pod względem możliwości, możesz zarabiać sprzedając przedmioty, wykonując zadania lub handlując na rynku graczy, a to tylko jedne z wielu możliwości zarabiania na serwerze.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-item-header">
+                        Czy można się skontaktować z administracją serwera?
+                    </div>
+                    <div class="accordion-item-body">
+                        <div class="accordion-item-body-content">
+                            Tak, administracja jest do twoich usług podczas gry, możesz się jej spytać o cokolwiek na czacie gry, lub pisząc do nas na naszym discordzie.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer id="footer">
+        <p class="copyright">&copy; 2024 <span class="server-name-footer">BoberCraft</span>. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+<script src="https://kit.fontawesome.com/cbf5ee59c8.js" crossorigin="anonymous"></script>
+</html>
