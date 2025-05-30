@@ -7,4 +7,4 @@
 Server is probably down :\
 
 
-© 2024 BoberCraft. All rights reserved.
+© 2024-2025 BoberCraft. All rights reserved.
